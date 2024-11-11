@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.geometry.Insets?>
+
+<VBox spacing="10" alignment="CENTER" style="-fx-padding: 20;" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="co.edu.uniquindio.cafeteria.cafeteria.HelloController">
+    <CheckBox fx:id="chkMilk" text="Leche"/>
+    <CheckBox fx:id="chkSugar" text="Azucar"/>
+    <Button text="Calcular" onAction="#calculate"/>
+    <Label fx:id="lblCost" text="Costo: $2.7"/>
+    <Label fx:id="lblIngredients" text="Ingredientes: Café simple"/>
+</VBox>
